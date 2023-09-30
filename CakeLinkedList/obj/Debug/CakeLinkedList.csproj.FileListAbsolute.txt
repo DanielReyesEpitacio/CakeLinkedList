@@ -1,0 +1,11 @@
+C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\bin\Debug\CakeLinkedList.exe.config
+C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\bin\Debug\CakeLinkedList.exe
+C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\bin\Debug\CakeLinkedList.pdb
+C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.Form1.resources
+C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.Properties.Resources.resources
+C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.csproj.GenerateResource.cache
+C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.exe
+C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.pdb
+C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.CakeFom.resources
