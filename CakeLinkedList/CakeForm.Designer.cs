@@ -1,6 +1,6 @@
 ﻿namespace CakeLinkedList
 {
-    partial class CakeFom
+    partial class CakeForm
     {
         /// <summary>
         /// Required designer variable.
@@ -33,21 +33,21 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(194, 141);
+            this.button1.Location = new System.Drawing.Point(238, 230);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(240, 92);
+            this.button1.Size = new System.Drawing.Size(90, 37);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Agregar pastel";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // CakeFom
+            // CakeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(597, 450);
             this.Controls.Add(this.button1);
-            this.Name = "CakeFom";
+            this.Name = "CakeForm";
             this.Text = "CakeFom";
             this.ResumeLayout(false);
 

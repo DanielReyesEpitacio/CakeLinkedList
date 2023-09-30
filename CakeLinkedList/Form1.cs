@@ -20,6 +20,12 @@ namespace CakeLinkedList
             InitializeComponent();
         }
 
+        //Este método se ejecuta al dar click en el botón "guardar" de la clase "CakeForm"
+        public void onSubmitCakeForm(Cake model)
+        {
+
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             cakes.add(new Cake("Manzana",8,"Rojo",423.12,16,"La zarza"));
@@ -30,11 +36,7 @@ namespace CakeLinkedList
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Cake cake = (Cake)cakeListBox.SelectedItem;
-            //cake.color = "san vergonio";
-            //updateListBox();
-            CakeFom form = new CakeFom();
-            form.OnAction += () => { MessageBox.Show("Lambda ejecutada desde el form 1"); };
+            CakeForm form = new CakeForm(this);
             form.Show();
         }
 
@@ -52,6 +54,7 @@ namespace CakeLinkedList
 
         private void insertHeadButton_Click(object sender, EventArgs e)
         {
+            //Llamar al formulario
             cakes.addHead(new Cake("Durazno", 7, "Naranja", 553.12, 26, "La morena"));
             updateGridView(cakes.ToList<Cake>());
         }
@@ -72,5 +75,6 @@ namespace CakeLinkedList
         {
             
         }
+
     }
 }
