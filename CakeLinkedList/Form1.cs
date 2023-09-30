@@ -66,5 +66,11 @@ namespace CakeLinkedList
         {
             updateGridView(cakes.ToList<Cake>());
         }
+
+        //validaciones al editar una celda
+        private void cakeGridView_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
+        {
+            
+        }
     }
 }

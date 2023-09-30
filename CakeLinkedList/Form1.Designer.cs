@@ -43,6 +43,7 @@
             this.cakeGridView.Name = "cakeGridView";
             this.cakeGridView.Size = new System.Drawing.Size(576, 182);
             this.cakeGridView.TabIndex = 0;
+            this.cakeGridView.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.cakeGridView_CellValidating);
             // 
             // sortReverseButton
             // 
