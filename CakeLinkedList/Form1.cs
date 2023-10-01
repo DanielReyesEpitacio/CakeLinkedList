@@ -39,7 +39,7 @@ namespace CakeLinkedList
                     MessageBox.Show("Pastel agregado al final de la lista", "Notificación");
                     break;
                 default:
-                    MessageBox.Show("Accion no definida");
+                    MessageBox.Show("Acción no definida");
                     break;
             }
         }

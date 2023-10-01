@@ -6,20 +6,20 @@ namespace CakeLinkedList
     public class ListaEnlazada<T> : IEnumerable<T>
     {
         private Nodo<T> head;
-        private Nodo<T> food;
+        private Nodo<T> foot;
         public void add(T item)
         {
             Nodo<T> newNode = new Nodo<T>(item);
             if (head == null)
             {
                 head = newNode;
-                food = newNode;
+                foot = newNode;
             }
             else
             {
-                food.nextNode = newNode;
-                newNode.previousNode = food;
-                food = newNode;
+                foot.nextNode = newNode;
+                newNode.previousNode = foot;
+                foot = newNode;
 
             }
         }
@@ -30,7 +30,7 @@ namespace CakeLinkedList
             if (head == null)
             {
                 head = newNode;
-                food = newNode;
+                foot = newNode;
             }
             else
             {
