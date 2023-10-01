@@ -3,10 +3,14 @@ using System.Collections.Generic;
 
 namespace CakeLinkedList
 {
+    //Implementa la interfaz 'Enumerable' para que sea considerado una estructura
+    //de datos por el compilador y no solo emule una estructura de datos.
     public class ListaEnlazada<T> : IEnumerable<T>
     {
         private Nodo<T> head;
         private Nodo<T> foot;
+
+        //Agrega un elemento al final de la lista.
         public void add(T item)
         {
             Nodo<T> newNode = new Nodo<T>(item);
@@ -24,6 +28,7 @@ namespace CakeLinkedList
             }
         }
 
+        //Agrega un elemento al inicio de la lista.
         public void addHead(T item)
         {
             Nodo<T> newNode = new Nodo<T>(item);
