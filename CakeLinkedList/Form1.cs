@@ -17,7 +17,7 @@ namespace CakeLinkedList
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            cakes.add(new Cake("Manzana", 8, "Rojo", 423.12, 16, "La zarza"));
+            //cakes.add(new Cake("Manzana", 8, "Rojo", 423.12, 16, "La zarza"));
             //cakes.add(new Cake("Pera", 7, "Rojo", 553.12, 26, "La morena"));
             updateGridView(cakes.ToList<Cake>());
 
@@ -31,7 +31,7 @@ namespace CakeLinkedList
                 case "Agregar al inicio":
                     cakes.addHead(evt.cake);
                     updateGridView(cakes.ToList<Cake>());
-                    MessageBox.Show("Pastel agregado al inicio de la lista", "Notificacion");
+                    MessageBox.Show("Pastel agregado al inicio de la lista", "Notificación");
                     break;
                 case "Agregar al final":
                     cakes.add(evt.cake);
@@ -44,6 +44,7 @@ namespace CakeLinkedList
             }
         }
 
+        
         private void reverseButton_Click(object sender, EventArgs e)
         {
             updateGridView(cakes.Reverse<Cake>().ToList<Cake>());
@@ -79,11 +80,13 @@ namespace CakeLinkedList
             }
         }
 
+        //Abre el formulario para crear un nuevo pastel
         private void addCakeButton_Click(object sender, EventArgs e)
         {
             CakeForm form = new CakeForm(this);
             form.Show();
         }
+
 
         private void updateGridView(List<Cake> list)
         {

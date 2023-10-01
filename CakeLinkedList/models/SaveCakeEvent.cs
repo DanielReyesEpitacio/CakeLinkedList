@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace CakeLinkedList.models
 {
+    //Esta clase es utilizada para enviar datos entre componentes. Encapsula el pastel a 
+    //agregar y en si debe ser agregado al inicio o al final
     public class SaveCakeEvent
     {
         public Cake cake { get; set; }

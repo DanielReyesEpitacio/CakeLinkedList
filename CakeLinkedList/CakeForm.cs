@@ -25,6 +25,7 @@ namespace CakeLinkedList
         private void addCakeButton_Click(object sender, EventArgs e)
         {
             Cake cake = new Cake();
+
             cake.flavor = flavorTxt.Text;
             cake.size = int.Parse(sizeTxt.Text);
             cake.color=colorTxt.Text;
@@ -32,9 +33,11 @@ namespace CakeLinkedList
             cake.portions = int.Parse(sizeTxt.Text);
             cake.distributor = distributorTxt.Text;
             this.Close();
+
             listener.onSubmitCakeForm(new SaveCakeEvent(cake,actionTypeComboBox.SelectedItem.ToString()));
         }
 
+        //Impide que se ingrese un caracter que no sea un número.
         private void sizeTxt_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
@@ -43,6 +46,7 @@ namespace CakeLinkedList
             }
         }
 
+        //Impide que se agregue un caracter que no sea un número.
         private void portionsTxt_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsDigit(e.KeyChar) && !char.IsDigit(e.KeyChar))
@@ -51,6 +55,7 @@ namespace CakeLinkedList
             }
         }
 
+        //Solo permite ingresar caracteres que sean números y un punto decimal.
         private void priceTxt_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
