@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CakeFom.cs">
+    <Compile Include="CakeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CakeFom.Designer.cs">
-      <DependentUpon>CakeFom.cs</DependentUpon>
+    <Compile Include="CakeForm.Designer.cs">
+      <DependentUpon>CakeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -60,10 +60,11 @@
     </Compile>
     <Compile Include="ListaEnlazada.cs" />
     <Compile Include="models\Cake.cs" />
+    <Compile Include="models\SaveCakeEvent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CakeFom.resx">
-      <DependentUpon>CakeFom.cs</DependentUpon>
+    <EmbeddedResource Include="CakeForm.resx">
+      <DependentUpon>CakeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

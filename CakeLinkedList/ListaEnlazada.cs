@@ -39,7 +39,6 @@ namespace CakeLinkedList
                 head = newNode;
             }
 
-
         }
 
         public IEnumerator<T> GetEnumerator()

@@ -8,4 +8,4 @@ C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedLi
 C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.csproj.CoreCompileInputs.cache
 C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.exe
 C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.pdb
-C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.CakeFom.resources
+C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.CakeForm.resources
