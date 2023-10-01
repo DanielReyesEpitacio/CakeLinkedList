@@ -9,3 +9,14 @@ C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedLi
 C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.exe
 C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.pdb
 C:\Users\danie\Documents\proyectos_programacion\.net\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.CakeForm.resources
+C:\Users\gabri\OneDrive\Documentos\7A\CakeLinkedList\CakeLinkedList\bin\Debug\CakeLinkedList.exe.config
+C:\Users\gabri\OneDrive\Documentos\7A\CakeLinkedList\CakeLinkedList\bin\Debug\CakeLinkedList.exe
+C:\Users\gabri\OneDrive\Documentos\7A\CakeLinkedList\CakeLinkedList\bin\Debug\CakeLinkedList.pdb
+C:\Users\gabri\OneDrive\Documentos\7A\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.csproj.AssemblyReference.cache
+C:\Users\gabri\OneDrive\Documentos\7A\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.CakeForm.resources
+C:\Users\gabri\OneDrive\Documentos\7A\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.form1.resources
+C:\Users\gabri\OneDrive\Documentos\7A\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.Properties.Resources.resources
+C:\Users\gabri\OneDrive\Documentos\7A\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.csproj.GenerateResource.cache
+C:\Users\gabri\OneDrive\Documentos\7A\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Documentos\7A\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.exe
+C:\Users\gabri\OneDrive\Documentos\7A\CakeLinkedList\CakeLinkedList\obj\Debug\CakeLinkedList.pdb

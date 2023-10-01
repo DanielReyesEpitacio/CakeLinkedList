@@ -47,12 +47,16 @@
             // 
             // addCakeButton
             // 
-            this.addCakeButton.Location = new System.Drawing.Point(101, 415);
+            this.addCakeButton.BackColor = System.Drawing.Color.Snow;
+            this.addCakeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addCakeButton.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addCakeButton.ForeColor = System.Drawing.Color.DarkRed;
+            this.addCakeButton.Location = new System.Drawing.Point(77, 411);
             this.addCakeButton.Name = "addCakeButton";
-            this.addCakeButton.Size = new System.Drawing.Size(90, 23);
+            this.addCakeButton.Size = new System.Drawing.Size(139, 29);
             this.addCakeButton.TabIndex = 0;
             this.addCakeButton.Text = "Agregar pastel";
-            this.addCakeButton.UseVisualStyleBackColor = true;
+            this.addCakeButton.UseVisualStyleBackColor = false;
             this.addCakeButton.Click += new System.EventHandler(this.addCakeButton_Click);
             // 
             // flavorLabel
@@ -157,10 +161,11 @@
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
-            this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel.Location = new System.Drawing.Point(78, 20);
+            this.titleLabel.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleLabel.ForeColor = System.Drawing.Color.DarkRed;
+            this.titleLabel.Location = new System.Drawing.Point(73, 21);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(132, 24);
+            this.titleLabel.Size = new System.Drawing.Size(143, 23);
             this.titleLabel.TabIndex = 13;
             this.titleLabel.Text = "Nuevo pastel";
             // 
@@ -180,6 +185,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(294, 456);
             this.Controls.Add(this.actionTypeComboBox);
             this.Controls.Add(this.titleLabel);
@@ -198,7 +204,7 @@
             this.Controls.Add(this.addCakeButton);
             this.Name = "CakeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CakeFom";
+            this.Text = "Formulario";
             this.ResumeLayout(false);
             this.PerformLayout();
 
