@@ -42,7 +42,7 @@ namespace CakeLinkedList
                     {
                         if(double.TryParse(priceTxt.Text, out _))
                         {
-                            if(int.TryParse(portionsTxt.Text, out _))
+                            if(int.TryParse(portionsTxt.Text, out var portionsI) && portionsI<1000)
                             {
                                 if (distributorTxt.Text != "")
                                 {
@@ -56,7 +56,7 @@ namespace CakeLinkedList
                             }
                             else
                             {
-                                MessageBox.Show("Ingrese una porción", "Notificación");
+                                MessageBox.Show("Ingrese un número entero de porciones menor a 1000", "Notificación");
                                 portionsTxt.Focus();
                             }
                         }
@@ -98,7 +98,7 @@ namespace CakeLinkedList
         //Impide que se agregue un caracter que no sea un número.
         private void portionsTxt_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsDigit(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
                 e.Handled = true;
             }
@@ -117,5 +117,7 @@ namespace CakeLinkedList
                 e.Handled = true;
             }
         }
+
+       
     }
 }

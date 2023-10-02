@@ -153,6 +153,7 @@
             this.portionsTxt.Size = new System.Drawing.Size(344, 26);
             this.portionsTxt.TabIndex = 10;
             this.portionsTxt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.portionsTxt_KeyPress);
+            
             // 
             // distributorLabel
             // 

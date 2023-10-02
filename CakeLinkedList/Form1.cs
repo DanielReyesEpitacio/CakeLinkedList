@@ -17,8 +17,8 @@ namespace CakeLinkedList
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            cakes.add(new Cake("Manzana", 8, "Rojo", 423.12, 16, "La zarza"));
-            cakes.add(new Cake("Pera", 7, "Rojo", 553.12, 26, "La morena"));
+            //cakes.add(new Cake("Manzana", 8, "Rojo", 423.12, 16, "La zarza"));
+            //cakes.add(new Cake("Pera", 7, "Rojo", 553.12, 26, "La morena"));
             updateGridView(cakes.ToList<Cake>());
 
         }
@@ -66,7 +66,7 @@ namespace CakeLinkedList
                     if (!(valor > 0))
                     {
                         e.Cancel = true;
-                        MessageBox.Show(this, "Introduzca un número válido mayor a 0");
+                        MessageBox.Show(this, "Introduzca un número válido mayor a 0", "Info");
                     }
                 }
             }
@@ -75,7 +75,7 @@ namespace CakeLinkedList
                 if (string.IsNullOrEmpty(e.FormattedValue.ToString()))
                 {
                     e.Cancel = true;
-                    MessageBox.Show("El campo no puede quedar vacío");
+                    MessageBox.Show("El campo no puede quedar vacío","");
                 }
             }
         }
