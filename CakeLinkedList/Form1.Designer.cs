@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form1));
             this.cakeGridView = new System.Windows.Forms.DataGridView();
             this.sortReverseButton = new System.Windows.Forms.Button();
             this.sortButton = new System.Windows.Forms.Button();
@@ -132,6 +133,7 @@
             this.Controls.Add(this.sortButton);
             this.Controls.Add(this.sortReverseButton);
             this.Controls.Add(this.cakeGridView);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

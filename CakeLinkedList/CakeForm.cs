@@ -31,7 +31,7 @@ namespace CakeLinkedList
             }
 
         }
-        //Aunque las validaciones de los datos evitan ingresar información incorrecta, dejar los campos vacíos proboca exepción
+        //Aunque las validaciones de los datos evitan ingresar información incorrecta, dejar los campos vacíos causa exepción
         private bool accurateData()
         {
             bool ok = false;
